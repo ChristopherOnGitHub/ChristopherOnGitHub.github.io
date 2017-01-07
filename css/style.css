@@ -10,7 +10,6 @@ and open the template in the editor.
 
 body {
     background-image: url("../img/marble.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -23,9 +22,10 @@ body {
 h1 {
     font-size: 400%;
     font-family: "Times New Roman", Georgia, Serif;
+	color: black;
 }
 
-h3 {
+h4 {
     font-family: "Times New Roman", Georgia, Serif;
     font-weight: bold;
     color: black;
