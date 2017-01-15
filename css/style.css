@@ -27,6 +27,11 @@ h1 {
 
 h4 {
     font-family: "Times New Roman", Georgia, Serif;
-    font-weight: bold;
     color: black;
+}
+
+#contentBackground {
+	background-color: rgba(255,255,255,0.5);
+	border: 1px solid #040404;
+	border-radius: 1%;
 }

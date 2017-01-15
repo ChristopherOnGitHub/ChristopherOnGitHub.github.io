@@ -20,12 +20,10 @@ $(document).ready(function (){
     
     $("#ghub").click(function (event) {
       content.empty();
-      content.append("Follow the link below to view my github repository. This is my personal use repos. It is not necessarily \n\
-        meant to be a portfolio. However, I am proud of a lot of the work inside and I would be thrilled for people to look through it. \n\
-        The 'MyProjects' folder is all of assignments that I completed during my time at the software guild. It has a combination of\n\
-         java console applications and full-stack web applications with databases. The 'Software_Guild_Resources' folder is a \n\
-        collection of class materials for me to look back on NONE OF IT IS MY OWN CODE. The code for this website is also \n\
-        available too!");
+      content.append("Follow the link below to view my github repository. This is my personal use repository. Inside is a collection of all of the");
+	  content.append(" projects from during my time at the software guild. This includes everything from basic java console applications all the way up to full-stack web applications");
+	  content.append(" I am particularly proud of the 'capstone' assignment. This project was assigned as a group project");
+	  content.append(" to be created in an agile workflow in teams of four. You will also find the code for this website. " );
       content.append("<a href='https://github.com/ChristopherOnGitHub' target='_blank'> Click Here To View My GitHub Profile</a>");
     });
     
