@@ -11,8 +11,9 @@ and open the template in the editor.
 body {
     background-image: url("../img/marble.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: left top;
     background-attachment: fixed;
+	position: absolute;
 }
 
 .imgLink {
