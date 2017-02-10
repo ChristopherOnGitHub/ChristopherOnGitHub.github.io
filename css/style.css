@@ -20,6 +20,11 @@ body {
     cursor: pointer;
 }
 
+.Link{
+    cursor: pointer;
+    color: darkblue;
+}
+
 h1 {
     font-size: 400%;
     font-family: "Times New Roman", Georgia, Serif;
